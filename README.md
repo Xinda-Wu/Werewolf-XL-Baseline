@@ -1,31 +1,34 @@
-We provided an extensive benchmark by comparing handcrafted and deep neural network features for unimodal emotion analysis. In addition, decision fusion of concatenating the estimates from different unimodalities yielded improved multimodal performances; this indicated complementarity among multiple modalities.
+- ## Introduction
 
+  Affective computing and natural human-computer interaction, which would be capable of interpreting and responding intelligently to the social cues of interaction in crowds, are more needed than ever as an individual’s affective experience is often related to others in group activities. To develop the next-generation intelligent interactive systems, we require numerous human facial expressions with accurate annotations. However, existing databases usually consider non-spontaneous human behavior (posed or induced), individual or dyadic setting, and a single type of emotion annotation. To address this need, we created the Werewolf-XL database, which contains a total of 890 minutes of spontaneous audio-visual recordings of 129 subjects in a group interaction of nine individuals playing a conversational role-playing game called Werewolf. We provide 131,688 individual utterance-level video clips with internal self-assessment of 18 non-prototypical emotional categories and external assessment of pleasure, arousal, and dominance, including 14,632 speakers' samples and the rest of listeners' samples. Besides, the results of the annotation agreement analysis show fair reliability and validity. Role information and outcomes of the game are also recorded. Furthermore, we provided extensive benchmarks of unimodal and multimodal emotional recognition results. The database is made publicly available.
 
+  ## **Download |** Baidu Cloud
 
+  #### 1 Video
 
+  - Werewolf-XL Dataset | [Download Link ](https://pan.baidu.com/s/16W46maasfjEWNYhPlTTaMg)| Password: psiv
+  - Werewolf-XL_Speaker_Video | [Download Link ](https://pan.baidu.com/s/1lBAcMHUzaVd5Vd1hYf9nsg)| Password: e05q
 
-# Werewolf-XL Dataset File Structure
+  #### 2 Emotion Labels
 
-- 格式：数据文件 ｜ 说明
-  - **Werewolf-XL_Video** | 30场狼人杀视频数据
-    - 链接: https://pan.baidu.com/s/1t9HxPDgZSdK3rSFxYkoGKg 提取码: 46no 
-  - Werewolf-XL_Speaker_Video | 30场玩家的说话视频数据
-    - 链接: https://pan.baidu.com/s/1zDwJdJzf9i8EYBJh8qrPXg 提取码: e05q
-  - 情感标签数据文件
-    - 整合(离散&连续)
-      - 链接: https://pan.baidu.com/s/1zEHtOM73XUnA8fNkOAJcgA 提取码: hrda
-    - 离散情感标签 ｜ Categorical Emotion Labels
-      - 链接: https://pan.baidu.com/s/1sZve__adFEsLfeJn6nKgoQ 提取码: 1unw
-    - 连续情感标签 ｜ PAD Emotion Labels
-      - 链接: https://pan.baidu.com/s/1iLiZm1J2qUq4OnO0H--aLw 提取码: fa42
-  - 玩家参与记录文件 | 交叉验证，去重
-    - 链接: https://pan.baidu.com/s/1INwbEfhFBvWMGWkTmnEhPQ 提取码: yc6m
+  - All | [Download Link](https://pan.baidu.com/s/1zEHtOM73XUnA8fNkOAJcgA ) | Password: hrda
+  - Categorical | [Download Link](https://pan.baidu.com/s/1sZve__adFEsLfeJn6nKgoQ ) | Password: 1unw
+  - PAD | [Download Link ](https://pan.baidu.com/s/1iLiZm1J2qUq4OnO0H--aLw )| Password: fa42
 
+  #### 3 Player participation log files 
 
+  - [Download Link](https://pan.baidu.com/s/1INwbEfhFBvWMGWkTmnEhPQ ) | Password: yc6m
 
-- code
-- 完整版本 包括数据
+  #### 4 Baseline Features and Code 
 
-数据
+  - [Download Link ](https://pan.baidu.com/s/1U45d4oMI31rxItRM_4YqoQ)| Password: sfi7
 
-- **Werewolf-XL_Video** | 30 sessions of Werewolf game recordings
+  #### 5 Github Links: 
+
+  Github: https://github.com/Xinda-Wu/Werewolf-XL-Baseline
+
+  ## **License & co**
+
+  Please cite our [paper](https://ieeexplore.ieee.org/document/9506939) if you use our code or data.
+
+  > K. Zhang *et al*., "Werewolf-XL: A Database for Identifying Spontaneous Affect in Large Competitive Group Interactions," in *IEEE Transactions on Affective Computing*, doi: 10.1109/TAFFC.2021.3101563.
